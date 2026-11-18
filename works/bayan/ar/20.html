@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="copyright" content="© 2024 to 2026 Dr. Adel F. Amer. All rights reserved.">
+<meta name="author" content="Dr. Adel F. Amer">
+<meta name="rights" content="All rights reserved">
+<meta name="tdm-reservation" content="1">
+<meta name="robots" content="max-image-preview:large,noai,noimageai">
+<link rel="license" href="https://juthur.netlify.app/rights">
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<meta name="description" content="جُذُور · فنّ البيان · الكتاب العشرون: جُذُورُ الحصاد. كتابُ الختام. الطبعة التراثيّة.">
+<title>جُذُور · فنّ البيان، الكتاب العشرون: جُذُورُ الحصاد (الطبعة التراثيّة)</title>
+<link href="../../../assets/fonts/gf04.css" rel="stylesheet">
+<style>
+:root{
+  --parch:#f4ead0; --parch-deep:#ece0c2; --ink:#2c2118; --sepia:#6a4e2c;
+  --gold:#a6862f; --gold-ink:#8b6914; --oxblood:#7a2e1f;
+  --seed:#4f5f2b; --emerald:#254032; --frame:#7c5a2a;
+  --stage-lit:#DDA24E; --stage-crown:#A98B3C; --stage-shadow:#7A3E24;
+}
+*{box-sizing:border-box}
+html{background:#241a10}
+body{font-family:'Amiri',serif;color:var(--ink);line-height:1.95;margin:0;font-size:19px;direction:rtl;
+  text-rendering:optimizeLegibility;
+  background:radial-gradient(ellipse at 80% 8%, rgba(255,250,235,.55), transparent 60%),radial-gradient(ellipse at 15% 92%, rgba(120,90,45,.10), transparent 55%),repeating-linear-gradient(0deg, rgba(120,90,45,.014) 0 2px, transparent 2px 4px),var(--parch);}
+p{margin:0 0 .86em}
+.lat{font-family:'EB Garamond',serif;direction:ltr;unicode-bidi:isolate}
+.en{font-family:'Cormorant Garamond',serif;direction:ltr;unicode-bidi:isolate;font-style:italic}
+.skip{position:absolute;right:-999px;top:0;background:var(--oxblood);color:#fff;padding:8px 14px;border-radius:0 0 0 6px;z-index:99}
+.skip:focus{right:0}
+.leaf{max-width:880px;margin:1.72em auto;background:radial-gradient(circle at 70% 0%, rgba(255,252,240,.7), transparent 45%),var(--parch);border:2px solid var(--frame);box-shadow:0 0 0 7px var(--parch),0 0 0 8px var(--gold),0 18px 50px rgba(0,0,0,.5);position:relative;padding:2.58em 2.4em;}
+.leaf::before{content:"";position:absolute;inset:12px;border:1px solid rgba(124,90,42,.5);pointer-events:none}
+.corner{position:absolute;font-family:'Cormorant Garamond',serif;color:var(--gold);font-size:32px;line-height:1}
+.corner.tl{top:6px;left:12px}.corner.tr{top:6px;right:12px}.corner.bl{bottom:2px;left:12px}.corner.br{bottom:2px;right:12px}
+.crest{display:block;margin:0 auto}
+.house{text-align:center;letter-spacing:2px;font-size:14px;color:var(--sepia);margin-top:.4em}
+h1,h2,h3,h4{font-family:'Amiri',serif;color:var(--ink);font-weight:700;line-height:1.5}
+.frontispiece{text-align:center;padding:.6em 10px .2em;border-bottom:1px double var(--gold);margin-bottom:.86em}
+.frontispiece .bookno{letter-spacing:1px;color:var(--oxblood);font-size:16px}
+.frontispiece h1{font-size:52px;margin:.1em 0 .05em;color:var(--ink)}
+.frontispiece .translit{font-style:italic;color:var(--sepia);font-size:19px}
+.frontispiece .motto{font-family:'Amiri',serif;font-size:24px;color:var(--oxblood);margin:.5em auto;max-width:600px}
+.frontispiece .stage{letter-spacing:1px;color:var(--sepia);font-size:16px}
+.legal{border:1px solid rgba(124,90,42,.4);border-radius:4px;background:rgba(255,251,240,.5);padding:1em 1.4em;margin:1.4em 0;font-size:15.5px;color:var(--sepia);position:relative;line-height:1.9}
+.legal .copyr{font-weight:700;color:var(--ink)}
+.legal .qbadge{float:left;margin:0 16px 10px 0}
+.legal b{color:var(--emerald)}
+.legal .qmark-line{color:var(--oxblood);letter-spacing:.5px;border-top:1px solid rgba(166,134,47,.4);border-bottom:1px solid rgba(166,134,47,.4);padding:.45em 0;text-align:center;margin:.7em 0}
+.legal .imprint{letter-spacing:.5px;font-size:14px}
+.arc{display:flex;align-items:center;justify-content:center;gap:0;margin:1.2em auto .4em;flex-wrap:wrap}
+.arc .node{letter-spacing:.5px;font-size:14.5px;color:var(--sepia);display:inline-flex;align-items:center;gap:5px;font-family:'Amiri',serif}
+.arc .dot{width:11px;height:11px;border-radius:50%;border:1.4px solid var(--gold-ink);display:inline-block}
+.arc .node.on .dot{background:var(--gold-ink)} .arc .node.on{color:var(--oxblood);font-weight:700}
+.arc .node.done .dot{background:rgba(139,105,20,.4)}
+.arc .lnk{width:26px;height:1px;background:linear-gradient(90deg,var(--gold),rgba(166,134,47,.3));margin:0 3px}
+.toc{border:1px solid rgba(124,90,42,.35);border-radius:4px;padding:.6em 1.2em;margin:1.4em 0;background:rgba(255,251,240,.5);columns:2;column-gap:2em;font-size:16px}
+.toc h3{margin:.2em 0 .4em;letter-spacing:.5px;color:var(--emerald);column-span:all}
+.toc a{color:var(--sepia);text-decoration:none;display:block;padding:.14em 0;border-bottom:1px dotted rgba(124,90,42,.3)}
+.toc a:hover{color:var(--oxblood)}
+.rule-orn{border:0;text-align:center;margin:1.72em 0}
+.rule-orn::before{content:"❦   ✦   ❦";color:var(--gold-ink);letter-spacing:8px;font-size:16px}
+.thread{background:linear-gradient(270deg,rgba(166,134,47,.10),rgba(166,134,47,.02));border:1px solid var(--gold);border-right:5px solid var(--gold);border-radius:3px;padding:.86em 1em;margin:1.72em 0;font-size:17.5px;color:var(--sepia)}
+.thread b{color:var(--oxblood)}
+h2.sec{font-size:31px;margin:2.4em 0 .86em;color:var(--ink);text-align:center;position:relative}
+h2.sec span{background:var(--parch);padding:0 18px;position:relative;z-index:1}
+h2.sec::after{content:"";position:absolute;left:0;right:0;top:52%;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.note{border:1px solid var(--gold);border-right:5px solid var(--gold);background:rgba(255,250,235,.55);border-radius:3px;padding:.86em 1em;margin:1.72em 0}
+.note.warn{border-right-color:var(--oxblood)} .note.safe{border-right-color:var(--stage-crown)}
+.note .mk{color:var(--gold-ink);font-weight:700} .note.warn .mk{color:var(--oxblood)} .note.safe .mk{color:var(--stage-crown)}
+.card{background:rgba(255,251,240,.6);border:1px solid rgba(124,90,42,.35);border-radius:4px;padding:.6em 1.3em;margin:1.72em 0}
+table{width:100%;border-collapse:collapse;margin:.86em 0;font-size:16.5px}
+th,td{border:1px solid rgba(124,90,42,.28);padding:.5em .7em;text-align:right;vertical-align:top}
+th{background:transparent;color:var(--emerald);font-family:'Amiri',serif;font-weight:700;border-bottom:2px solid var(--gold)}
+tr:nth-child(even) td{background:rgba(124,90,42,.05)}
+.plate{margin:1.72em 0;border:1px solid rgba(124,90,42,.4);border-radius:4px;background:rgba(255,252,242,.5);padding:10px 10px 6px;box-shadow:inset 0 0 0 3px rgba(169,139,60,.22)}
+.plate svg{display:block;width:100%;height:auto;border-radius:2px}
+.plate img{display:block;width:100%;height:auto;border-radius:2px}
+.plate figcaption{font-family:'Amiri',serif;color:var(--sepia);text-align:center;font-size:16px;margin-top:.3em}
+.scene h4{color:var(--oxblood);font-size:21px;margin:1.2em 0 .3em;text-align:center}
+.scene h4::before,.scene h4::after{content:"❧";color:var(--gold-ink);font-size:14px;margin:0 .5em;vertical-align:middle}
+.story{background:rgba(255,252,242,.7);border:1px solid rgba(124,90,42,.3);border-radius:4px;padding:1em 1.5em;font-size:20px;line-height:2.05}
+.story .drop::first-letter{font-family:'Amiri',serif;font-size:3.2em;line-height:.7;float:right;padding:.05em 0 0 .12em;color:var(--oxblood);font-weight:700}
+.dialogue{color:var(--sepia)}
+.pill{display:inline-block;background:rgba(166,134,47,.14);border:1px solid var(--gold-ink);border-radius:10px;padding:1px 9px;font-size:13px;color:var(--sepia)}
+.bridge{display:flex;gap:16px;flex-wrap:wrap}
+.bridge>div{flex:1 1 300px;background:rgba(255,251,240,.6);border:1px solid rgba(124,90,42,.3);border-radius:4px;padding:.86em 1em}
+.qrwin{width:140px;float:left;margin:0 18px 10px 0;text-align:center}
+.qrwin .frameq{border:2px double var(--gold);border-radius:4px;padding:8px;position:relative;background:rgba(255,252,242,.7)}
+.qrwin .frameq::before{content:"❦";position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--parch);color:var(--gold-ink);padding:0 4px;font-size:13px}
+.qrwin .q{width:100%;aspect-ratio:1;border:1px solid rgba(124,90,42,.4);display:flex;align-items:center;justify-content:center;color:var(--sepia);font-size:13px}
+.qrwin .cap{letter-spacing:.5px;color:var(--sepia);font-size:13px;margin-top:.3em}
+blockquote{border:0;border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);margin:1.2em 0;padding:.6em 1em;color:var(--oxblood);text-align:center;font-family:'Amiri',serif;font-size:22px}
+.covenant{border:2px double var(--gold);border-radius:4px;padding:.86em 1.4em;margin:1.2em 0;background:rgba(255,251,240,.5)}
+.covenant ul{list-style:none;padding-right:0;margin:.4em 0}
+.covenant li{position:relative;padding-right:1.6em;margin:.5em 0}
+.covenant li::before{content:"❧";position:absolute;right:0;color:var(--gold-ink)}
+.sig{background:rgba(166,134,47,.07);border:1px dashed var(--gold);border-radius:4px;padding:.86em 1.1em;margin-top:.86em}
+.colophon{margin-top:2.4em;border-top:1px double var(--gold);padding-top:1em;text-align:center;color:var(--sepia)}
+.colophon .mark{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--oxblood);letter-spacing:2px}
+.finale{text-align:center;font-family:'Amiri',serif;color:var(--oxblood);font-size:22px;margin:1.2em auto;max-width:640px;line-height:1.9}
+.backcover{margin-top:2.2em;border:2px double var(--gold);border-radius:6px;padding:1.6em 1.4em;text-align:center;background:radial-gradient(circle at 50% 0%,rgba(169,139,60,.13),transparent 60%),rgba(255,251,240,.6)}
+.backcover .blurb{max-width:620px;margin:.8em auto;font-size:18px;line-height:2}
+.backcover .mission{color:var(--oxblood);font-family:'Amiri',serif;font-size:20px;margin:.6em auto;max-width:580px}
+.backcover .isbn{letter-spacing:.5px;color:var(--sepia);font-size:13px;margin-top:1em}
+.spinecode{display:inline-block;margin-top:.4em;padding:6px 10px;border:1px solid var(--gold);border-radius:3px;background:#fff;font-family:monospace;letter-spacing:2px;color:#222;direction:ltr}
+small.d{color:#6a4e2c}
+ul li{margin:.3em 0}
+@media print{@page{margin:16mm;@bottom-center{content:counter(page);font-family:'Amiri',serif;color:#8b6914;font-size:9pt}}
+  html,body{background:#fdfaf2 !important}body{font-size:12pt;color:#1e1810}.skip,.toc{display:none}
+  .leaf{max-width:100%;margin:0;border:0.6pt solid #a6862f;box-shadow:none;padding:10mm}.leaf::before{inset:5px;border:0.4pt solid #a6862f}
+  .frontispiece h1{font-size:34pt}h2.sec::after{background:#a6862f;height:.5pt}
+  .note,.card,.story,.plate,.covenant,.bridge>div,figure,table,.scene,.sig,.backcover,.legal{box-shadow:none;background:#fdfaf2 !important;page-break-inside:avoid;break-inside:avoid}
+  tr,thead,h2.sec{page-break-inside:avoid;break-inside:avoid}h2,h3,h4{page-break-after:avoid}
+  tr:nth-child(even) td{background:#f6efdd !important}a{color:inherit;text-decoration:none}}
+</style>
+<link rel="canonical" href="https://juthur.netlify.app/works/bayan/ar/20">
+<link href="../../../assets/fonts/gf01.css" rel="stylesheet">
+<style id="jw-bar-css">
+.jw-bar{position:sticky;top:0;z-index:9999;display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;align-items:center;justify-content:center;
+ margin:0;padding:7px 16px;background:#1B3A2F;color:#FBF9F4;font-family:'Amiri',Georgia,serif;font-size:15px;line-height:1.5;
+ border-bottom:2px solid #9A7B23;box-shadow:0 2px 6px rgba(0,0,0,.18);font-style:normal;font-weight:400;letter-spacing:0;text-align:center}
+.jw-bar a{color:#FBF9F4;text-decoration:none;border-bottom:1px solid transparent;padding:0 1px}
+.jw-bar a:hover{border-bottom-color:#C9A227}
+.jw-bar a:focus-visible{outline:2px solid #C9A227;outline-offset:3px}
+.jw-bar .jw-k{color:#C9A227;font-size:12px;letter-spacing:.18em}
+.jw-bar .jw-d{color:#C9A227;font-size:13px;border:1px solid #C9A227;padding:0 .5em}
+.jw-bar[dir=ltr]{font-family:'Fraunces',Georgia,serif;font-size:14px}
+.jw-bar [lang=ar]{font-family:'Amiri',serif}
+@media print{.jw-bar{display:none!important}}
+</style>
+<link rel="stylesheet" href="../../../juthur-nav.css">
+<link rel="stylesheet" href="../../../juthur-life.css">
+<script src="../../../juthur-life.js" defer></script>
+<link rel="stylesheet" href="../../../juthur-a11y.css">
+</head>
+<body>
+<nav class="jx-bar" aria-label="تنقّل جُذور"><a class="jx-home" href="../../../">جُذور</a><a href="../../../library.html">الرِّواق</a><a href="../../../library/stories/">المتنُ القصصيّ</a><a href="../../../library/book2/">الكتابُ الثاني</a><a href="../../../khizana">الأسفار</a><a href="../../../epics">الملاحم</a><a href="../../../theory/">النظريّة</a><a href="../../../listen/">الاستماع</a><a href="../../../hubs.html">المنصّات</a><a href="../../../en.html" lang="en">English</a></nav>
+<nav class="jw-bar" dir="rtl" lang="ar" aria-label="تنقّل المكتبة المفتوحة"><span class="jw-k">مَطبعةُ جُذور · دبي · MCMXXVI</span> <a href="../../../">جُذور · الدار</a> <a href="../../">المكتبةُ المفتوحة</a> <a href="../../../asfar/sifr-20">صفحةُ السِّفر</a> <a href="../en/20" lang="en">English</a></nav>
+
+<a class="skip" href="#begin">تخطَّ إلى المحتوى</a>
+<article class="leaf">
+<span class="corner tl">❧</span><span class="corner tr">❧</span><span class="corner bl">❧</span><span class="corner br">❧</span>
+
+<header>
+<svg class="crest" width="164" height="210" viewBox="86 68 268 392" role="img" aria-label="شعار جُذُور المطويّ بألوان مرحلة الحصاد: مثلّثٌ مطويٌّ على حرفٍ مركزيٍّ إلى وجهٍ ذهبيٍّ عميقٍ ووجهٍ بنّيٍّ محمرٍّ دافئٍ تحت تاجٍ عنبريٍّ برونزيٍّ، ومصراعانِ مطويّانِ يكشفانِ بذرةً ذهبيّةً وبرعمًا وجذورًا، وهو ختامُ الرحلةِ ومطلعُ الدائرةِ.">
+<g transform="translate(20,0)">
+  <g fill="none" stroke="#6E4E2E" stroke-linecap="round">
+    <path d="M200 300 C200 344 200 388 200 448" stroke-width="4"/>
+    <path d="M200 312 C176 338 154 366 138 414" stroke-width="3"/><path d="M200 312 C224 338 246 366 262 414" stroke-width="3"/>
+    <path d="M200 326 C186 352 172 380 164 428" stroke-width="2.2" opacity=".85"/><path d="M200 326 C214 352 228 380 236 428" stroke-width="2.2" opacity=".85"/>
+    <path d="M200 340 C214 366 218 394 214 444" stroke-width="1.8" opacity=".7"/>
+  </g>
+  <polygon points="135,188 200,215 200,300 70,300" fill="#DDA24E"/><polygon points="265,188 200,215 200,300 330,300" fill="#7A3E24"/>
+  <polygon points="200,75 200,215 135,188" fill="#A98B3C"/><polygon points="200,75 265,188 200,215" fill="#8a7130"/>
+  <g stroke-linecap="round" fill="none"><path d="M200 75 L200 300" stroke="#EAD7A2" stroke-width="1.1" opacity=".5"/>
+    <path d="M135 188 L200 215 L265 188" stroke="#2c1f10" stroke-width="0.8" opacity=".2"/><path d="M70 300 L200 215 L330 300" stroke="#2c1f10" stroke-width="0.8" opacity=".16"/></g>
+  <polygon points="198,178 163,216 198,254" fill="#4A3620"/><polygon points="202,178 237,216 202,254" fill="#2E2010"/>
+  <path d="M198 178 L198 254 M202 178 L202 254" stroke="#140c04" stroke-width="0.7" opacity=".5"/>
+  <path d="M200 183 C186 199 186 233 200 251 L200 183 Z" fill="#E3C063" stroke="#5A3D1E" stroke-width="1.4"/>
+  <path d="M200 183 C214 199 214 233 200 251 L200 183 Z" fill="#C0912E" stroke="#5A3D1E" stroke-width="1.4"/>
+  <path d="M200 183 L200 251" stroke="#5A3D1E" stroke-width="0.8" opacity=".8"/>
+  <path d="M200 183 C199 171 200 162 201 150" stroke="#4f5f2b" stroke-width="2.6" fill="none"/>
+  <path d="M200 172 C188 173 177 170 171 159 C181 160 193 165 200 170 Z" fill="#5f7034"/>
+  <path d="M201 159 C210 159 218 155 222 145 C216 151 207 155 201 157 Z" fill="#6a7d3c"/>
+</g>
+</svg>
+<div class="house">جُذُور · فنّ البيان · <span class="lat">Juthur · The Art of Expression</span></div>
+
+<div class="frontispiece">
+  <div class="bookno">الكتاب العشرون · كتابُ الختامِ · مطلعُ الدائرةِ</div>
+  <h1>جُذُورُ الْحَصَادِ</h1>
+  <div class="translit"><span class="lat">Judhur al-Hasad</span> · Roots of the Harvest</div>
+  <div class="motto">«مَا لَا نَرَاهُ... هُوَ سِرُّ بَقَائِنَا»</div>
+  <div class="stage">المقامُ المُبدعُ · مرحلةُ الحصادِ · ثمرةٌ تحمِلُ بذرةً · ١٦+ وللأسرةِ كلِّها · محاذاةٌ استرشاديّةٌ <span class="lat">CEFR C1 · ACTFL Advanced Low</span></div>
+  <div style="margin-top:.5em;font-size:15px;color:var(--sepia)">د. عادل ف. عامر &nbsp;·&nbsp; <span class="lat">ORCID 0009-0008-9618-3863</span> &nbsp;·&nbsp; نظريّةُ القراءةِ الملموسةِ <span class="lat">(CRT)</span>، عامر (2024)</div>
+</div>
+
+<div class="arc" aria-label="المواسم الستّة؛ هذا الكتاب ختامُ مرحلة الحصاد والرحلة كلِّها.">
+  <span class="node done"><span class="dot"></span>بَذْرَة</span><span class="lnk"></span>
+  <span class="node done"><span class="dot"></span>بُرْعُم</span><span class="lnk"></span>
+  <span class="node done"><span class="dot"></span>غُصْن</span><span class="lnk"></span>
+  <span class="node done"><span class="dot"></span>أوراق</span><span class="lnk"></span>
+  <span class="node done"><span class="dot"></span>ثَمَر</span><span class="lnk"></span>
+  <span class="node on"><span class="dot"></span>حَصاد</span>
+</div>
+</header>
+
+<section class="legal" aria-label="حقوق النشر والامتياز">
+<svg class="qbadge" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 120" width="112" height="112" role="img" aria-label="ختم جُذُور الرسميّ: بذرةٌ ذهبيّةٌ يعلوها برعمٌ وتحتها جذورٌ، في قلبها اسمُ جُذُور، يُحيط بها اسمُ الختم بالإنجليزيّة وعبارةُ CRT Aligned.">
+  <defs>
+    <path id="arcTop" d="M 20 60 A 40 40 0 0 1 100 60"/>
+    <path id="arcBot" d="M 100 60 A 40 40 0 0 1 20 60"/>
+    <radialGradient id="seedGrad" cx="0.42" cy="0.32" r="0.88"><stop offset="0" stop-color="#ecd488"/><stop offset="0.6" stop-color="#c0912e"/><stop offset="1" stop-color="#8B6914"/></radialGradient>
+    <radialGradient id="seedGlow" cx="0.5" cy="0.4" r="0.5"><stop offset="0" stop-color="#f4e8b8" stop-opacity="0.6"/><stop offset="1" stop-color="#c0912e" stop-opacity="0"/></radialGradient>
+  </defs>
+  <circle cx="60" cy="60" r="57" fill="#f7efda" stroke="#a6862f" stroke-width="1.6"/>
+  <circle cx="60" cy="60" r="51" fill="none" stroke="#a6862f" stroke-width="0.7"/>
+  <circle cx="60" cy="60" r="46" fill="none" stroke="#c9a961" stroke-width="0.3" stroke-dasharray="2 3"/>
+  <path d="M20 60 l2.8 -2.8 l2.8 2.8 l-2.8 2.8 z" fill="#a6862f"/>
+  <path d="M100 60 l-2.8 -2.8 l-2.8 2.8 l2.8 2.8 z" fill="#a6862f"/>
+  <text font-family="'Cormorant Garamond',serif" font-size="12" letter-spacing="3.5" fill="#7a2e1f" font-weight="700"><textPath xlink:href="#arcTop" startOffset="50%" text-anchor="middle">JUTHUR</textPath></text>
+  <text font-family="'Cormorant Garamond',serif" font-size="9.5" letter-spacing="2" fill="#254032" font-weight="600"><textPath xlink:href="#arcBot" startOffset="50%" text-anchor="middle">&#183; CRT Aligned &#183;</textPath></text>
+  <path d="M60 38 L60 32" stroke="#4f5f2b" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M60 35 C54 31 47 34 50 40 C55 41 58 38 60 35 Z" fill="#5f7034"/>
+  <path d="M60 35 C66 31 73 34 70 40 C65 41 62 38 60 35 Z" fill="#6a7d3c"/>
+  <ellipse cx="60" cy="52" rx="7.5" ry="10" fill="url(#seedGrad)" stroke="#5A3D1E" stroke-width="1.2"/>
+  <ellipse cx="60" cy="50" rx="5" ry="6" fill="url(#seedGlow)"/>
+  <circle cx="60" cy="50" r="1.6" fill="#7a2e1f" opacity="0.85"/><circle cx="60" cy="50" r="0.7" fill="#f4e8b8"/>
+  <line x1="42" y1="62" x2="78" y2="62" stroke="#a6862f" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="44" y1="62.8" x2="76" y2="62.8" stroke="#c9a961" stroke-width="0.4" stroke-linecap="round"/>
+  <g fill="none" stroke="#6E4E2E" stroke-width="1.4" stroke-linecap="round">
+    <path d="M60 62 C60 70 60 76 60 84"/><path d="M60 66 C55 72 50 78 46 86"/><path d="M60 66 C65 72 70 78 74 86"/>
+    <path d="M58 64 C52 70 46 76 42 82"/><path d="M62 64 C68 70 74 76 78 82"/></g>
+  <circle cx="60" cy="84" r="1" fill="#6E4E2E"/><circle cx="46" cy="86" r="1" fill="#6E4E2E"/><circle cx="74" cy="86" r="1" fill="#6E4E2E"/>
+  <circle cx="42" cy="82" r="0.8" fill="#6E4E2E"/><circle cx="78" cy="82" r="0.8" fill="#6E4E2E"/>
+  <text x="60" y="102" text-anchor="middle" font-family="'Amiri', serif" font-size="17" fill="#254032" font-weight="700" letter-spacing="0.5">جُذُور</text>
+  <line x1="46" y1="105" x2="74" y2="105" stroke="#a6862f" stroke-width="0.6" stroke-linecap="round"/>
+</svg>
+<p class="copyr">&copy; 2024 عادل ف. عامر (<span class="lat">Adel F. Amer</span>). جميعُ الحقوقِ محفوظةٌ.</p>
+<p><b>التأليفُ والملكيّةُ والاقتباسُ.</b> النصُّ الكاملُ لشروطِ الحقوقِ والاستخدامِ في <a href="01">الكتابِ الأوّلِ</a> وفي <a href="../../../rights">صفحةِ الحقوقِ</a>.</p>
+<p class="imprint">الطبعةُ الأولى 2024 · بَذْرَةٌ تَبْقَى لِتَنْمُوَ مِنْ بَعْدِنَا · عامر (2024)</p>
+</section>
+
+<p style="text-align:center;color:var(--sepia)">
+منظومةُ <b>جُذُور</b> · <b>فنُّ البيانِ</b>، الكتابُ العشرونَ وخاتمتُها: بعدَ تسعةَ عشرَ كتابًا نلتفتُ إلى ما تحتَ الأرضِ، إلى الجذرِ الذي يعملُ في صمتٍ، عبرَ <b>نظريّةِ القراءةِ الملموسةِ</b> <span class="lat">(CRT)</span>، عامر (2024).
+</p>
+
+<nav class="toc" aria-label="المحتويات">
+<h3>المحتويات</h3>
+<a href="#begin">قبلَ أنْ تبدأ</a>
+<a href="#id">بطاقةُ هُويّةِ الكتابِ</a>
+<a href="#root">الجذرُ وأسرتُهُ</a>
+<a href="#story">القصّةُ الكاملةُ: «جُذُورُ مائدةٍ»</a>
+<a href="#brief">النسخةُ الموجزةُ</a>
+<a href="#elements">العناصرُ الخمسةُ للتطبيقِ</a>
+<a href="#basket">سلّةُ الخبزِ وما لا نراهُ</a>
+<a href="#senses">الحواسُّ الداخليّةُ الأربعُ</a>
+<a href="#safestop">التوقُّفُ الآمنُ والدمجُ</a>
+<a href="#guide">دليلُ الأهلِ والمعلّمِ</a>
+<a href="#notebook">مفكّرةُ المُرافِقِ</a>
+<a href="#jps">مقياسُ جُذُور <span class="lat">(JPS)</span></a>
+<a href="#words">مفرداتُ الكتابِ</a>
+<a href="#questions">أسئلةُ الفهمِ</a>
+<a href="#media">نشاطٌ ومشروعُ الختامِ</a>
+<a href="#bridge">جسرُ الذاكرةِ · الدائرةُ</a>
+</nav>
+
+<div class="thread">
+<b>الخيطُ الواحدُ · </b> ما لا نراهُ هو سرُّ بقائِنا. كلُّ ما تعلَّمناهُ من البيانِ لم يكنْ ليُثمِرَ لولا جذرٌ خفيٌّ يعملُ في صمتٍ، والثمرةُ حينَ تنضجُ تحملُ في قلبِها بذرةً جديدةً فتبدأُ الدائرةُ من جديدٍ. وأوّلُ هذا الجذرِ أنْ نكونَ هنا حقًّا مع من نحبُّ.
+</div>
+
+<hr class="rule-orn">
+
+<main id="begin">
+
+<section>
+<h2 class="sec"><span>قبلَ أنْ تبدأ · تنبيهٌ للمعلّمِ والأهلِ</span></h2>
+<div class="note warn">
+<span class="mk"></span> &nbsp;<b>تنبيهٌ استباقيٌّ.</b> هذا الكتابُ الختاميُّ <b>مرآةٌ وأملٌ، لا محاكمةٌ</b>. تذكَّرْ أنَّ الهدفَ يقظةٌ حانيةٌ لا لومٌ، ولا شيطنةٌ للتقنيةِ (فهي أداةٌ نافعةٌ، والمشكلةُ أنْ تُغيّبَ الحاضرَ). لا تجعلِ المتعلّمَ يشعرُ أنَّ أسرتَهُ لا تحبُّهُ، ولا تُحمّلِ الأبَ أو الأمَّ المُرهَقَيْنِ ذنبًا؛ بل افتحِ القلوبَ برفقٍ. وإنْ كان طفلٌ يعيشُ إهمالًا حقيقيًّا، فأحِطْهُ بحنانٍ، ووجّهْهُ إلى شخصٍ كبيرٍ يثقُ بهِ. ولْيَطمئنَّ كلُّ أبٍ وأمٍّ: لستم وحدَكم في هذا، والوعيُ خطوةُ حبٍّ لا إدانةٌ؛ تكفي بدايةٌ صغيرةٌ.
+</div>
+<div class="note">
+<span class="mk">❦</span> &nbsp;<b>كيف تستعملُ هذا الكتابَ.</b> فيهِ نسختانِ من القصّةِ: موجزةٌ (٣ دقائق) وكاملةٌ (٧ دقائق). والقصّةُ ختامُ الرحلةِ: واقعيّةٌ هذه المرّةَ، مائدةُ عشاءٍ في بيتٍ كأيِّ بيتٍ، تُتوّجُ كلَّ ما تعلَّمناهُ من البيانِ، وتكشفُ سرَّهُ الخفيَّ: الجذرَ. وفيها تلتقي نورُ (رمزُ الرحلةِ) بالواقعِ في رسمةِ طفلٍ. كتابٌ يُقرأُ في الأسرةِ كلِّها.
+</div>
+</section>
+
+<section id="id">
+<h2 class="sec"><span>بطاقةُ هُويّةِ الكتابِ</span></h2>
+<table>
+<tr><th>المستوى / الدرجة</th><td>الحصاد · ثمرةٌ تحمِلُ بذرةً (الدائرةُ تكتملُ وتُفتَحُ)</td></tr>
+<tr><th>الفئةُ العمريّةُ</th><td>١٦+ · وللأسرةِ كلِّها. هو الكتابُ الوحيدُ في السلسلةِ المفتوحُ لدائرةٍ أوسعَ: يُقرأُ جهرًا في كلِّ بيتٍ على اختلافِ مستوياتِ أهلِهِ، ويبقى الكتابُ التاسعَ عشرَ لمن بلغوا التاسعةَ عشرةَ فأكثرَ.</td></tr>
+<tr><th>الجذرُ الأساسيُّ</th><td>ج-ذ-ر · الجَذْرُ: الأصلُ الخفيُّ تحتَ الأرضِ، الذي يُثبّتُ الشجرةَ ويُغذّيها ويمنحُها صوتَها العاليَ، وهو يعملُ في صمتٍ</td></tr>
+<tr><th>أسرةُ الجذرِ</th><td>جَذْر · جُذور · تَجَذَّرَ · مُتَجَذِّر · جُذَيْر</td></tr>
+<tr><th>المرساةُ الحسّيّةُ</th><td>يحضرُ بقلبِهِ لا بجسدِهِ فقط؛ يضعُ الشاشةَ، وينظرُ في العينينِ، ويُصغي لمن ينتظرُ اهتمامَهُ</td></tr>
+<tr><th>الاستعارةُ</th><td>الجذرُ الخفيُّ تحتَ الأرضِ هو سرُّ حياةِ الشجرةِ وصوتِها، كما أنَّ الحضورَ الصادقَ سرُّ حياةِ علاقاتِنا</td></tr>
+<tr><th>الشخصيّتانِ الحكيمتانِ</th><td>المعلّمةُ (مصدرُ حكمةِ الجذرِ، تُستلهَمُ عبرَ حكايةِ الطفلِ) + الجَدّةُ رملة (الحاضرةُ الصامتةُ على المائدةِ)</td></tr>
+<tr><th>الشخصيّةُ الرمزيّةُ</th><td>نورُ · حاضرةٌ في رسمةِ الطفلِ (شجرةُ الرحلةِ كلِّها بجُذَيْرِها)</td></tr>
+<tr><th>الشخصيّةُ المضادّةُ</th><td>الغَفلةُ المُوزَّعةُ، شخصيّةٌ رمزيّةٌ لا فردٌ واحدٌ، بل انشغالٌ يسكنُ جيبَ كلِّ فردٍ (الشاشةُ التي تُحضِرُ الغائبَ وتُغيّبُ الحاضرَ)، تستيقظُ حِينَ يوقظُها سؤالُ طفلٍ بريءٌ</td></tr>
+<tr><th>محكُّ الإتقانِ</th><td>ثمرةٌ تحمِلُ بذرةً: يحضرُ بقلبِهِ، يرى الجذرَ الخفيَّ في علاقاتِهِ، ويُورِثُ ما تعلَّمَهُ لمن بعدَهُ</td></tr>
+<tr><th>مجالُ <span class="lat">CASEL</span></th><td>الوعيُ الاجتماعيُّ والتعاطفُ <span class="lat">(Social Awareness)</span>، ويجمعُ هذا الكتابُ الختاميُّ كفاياتِ الرحلةِ كلَّها</td></tr>
+<tr><th>المعيارُ الدوليُّ</th><td>يُوائمُ وصفَ <span class="lat">CEFR</span> لمستوى <span class="lat">C1</span> (سردُ موقفٍ وجدانيٍّ والتعبيرُ عن فكرةٍ مجرّدةٍ بجُملٍ مترابطةٍ) ومستوى <span class="lat">ACTFL Advanced Low</span> (يسردُ ويصفُ في الأزمنةِ الرئيسةِ ويتصرّفُ في موقفٍ فيهِ مفاجأةٌ) · وكفايةُ <span class="lat">CASEL</span> «الوعيُ الاجتماعيُّ»</td></tr>
+</table>
+<div class="card">
+<h3 style="color:var(--oxblood)">جوهرُ الكتابِ</h3>
+<p>ثلاثةُ أشياءَ تحكيها المائدةُ: أسرةٌ حاضرةٌ بالأجسادِ غائبةٌ بالقلوبِ، وطفلٌ ينتظرُ أنْ يُرى، وسؤالٌ صغيرٌ يوقظُ الجميعَ. والغَفلةُ هنا ليستْ شريرًا يُقاوَمُ، بل تعبٌ يهربُ صاحبُهُ منهُ إلى ما لا يطلبُ شيئًا. وفي الختامِ ترى نورُ نفسَها في رسمةِ طفلٍ، شجرةٍ فيها بذرةٌ، فتفهمُ أنَّ الإرثَ ليسَ ثمرةً نُعطيها، بل بذرةٌ نُعلِّمُها كيفَ تنمو.</p>
+</div>
+<div class="note">
+<span class="mk">❦</span> &nbsp;<b>هامشٌ تعريفيٌّ.</b> في هذا الكتابِ الختاميِّ، تأتي الحكمةُ من مصدرَيْنِ قريبَيْنِ من كلِّ طفلٍ: مُعلّمةٌ تطرحُ سؤالًا يفتحُ العقلَ، وجَدّةٌ هي رملةُ، التي رافقتْنا منذُ البذرةِ، تحضرُ صامتةً على المائدةِ. ونستلهمُ أنَّ أعظمَ الحكمةِ قد تخرجُ من أصغرِ فمٍ: من طفلٍ يرى ما لا نراهُ.
+</div>
+</section>
+
+<section id="root">
+<h2 class="sec"><span>الجذرُ وأسرتُهُ · مهارةٌ ولغةٌ</span></h2>
+<div class="note safe">
+<span class="mk">❧</span> &nbsp;<b>الجسدُ قبلَ الرمزِ، للمرّةِ الأخيرةِ.</b> يلتقي المتعلّمُ بهذا الجذرِ الختاميِّ عبرَ <b>جسدِ الحضورِ</b>: يدٌ تضعُ الشاشةَ، وعينٌ تنظرُ في العينينِ، وأُذنٌ تُصغي لمن ينتظرُ اهتمامَهُ. ولكلِّ كلمةٍ، كالشجرةِ، جذرٌ تنبتُ منهُ.
+</div>
+<table>
+<tr><th>الجذرُ (المهارةُ)</th><th>أسرةُ الجذرِ (كلماتٌ من النَّسَبِ نفسِهِ)</th></tr>
+<tr><td>ج-ذ-ر</td><td>جَذْر · جُذور · تَجَذَّرَ · مُتَجَذِّر · جُذَيْر</td></tr>
+</table>
+<div class="note">
+<span class="mk">❦</span> &nbsp;<b>كيف نشرحُها للمتعلّمِ.</b> «كلمةُ <b>جَذْر</b> لها إخوةٌ! الأصولُ الكثيرةُ المتشعّبةُ تحتَ الأرضِ <b>جُذورٌ</b>، والشجرةُ التي ثبتتْ ورسختْ في الأرضِ قد <b>تَجَذَّرَتْ</b>، والثابتُ العميقُ الراسخُ <b>مُتَجَذِّرٌ</b>، والجذرُ الصغيرُ <b>جُذَيْرٌ</b>. كلُّها أسرةٌ من أبٍ واحدٍ: ج-ذ-ر.»
+</div>
+<div class="note">
+<span class="mk">❦</span> &nbsp;<b>ملاحظةٌ صرفيّةٌ للمعلّمِ.</b> الجذرُ <b>(ج-ذ-ر)</b> صحيحٌ سالمٌ. أصلُ معناهُ أصلُ الشيءِ وأساسُهُ الذي يقومُ عليهِ. ومنهُ جذرُ الشجرةِ (أصلُها تحتَ الأرضِ)، وجذرُ الكلمةِ (أصلُها الذي تتفرّعُ منهُ، وهو لبُّ منظومةِ جُذُور). ونُنبِّهُ المعلّمَ إلى أنَّ ما تحتَ الأرضِ من الجذرِ كثيرًا ما يُساوي ما فوقَها أو يزيدُ عليهِ، كما أنَّ أصلَ الإنسانِ الخفيَّ أعمقُ من مظهرِهِ الظاهرِ.
+</div>
+</section>
+
+<section id="story">
+<h2 class="sec"><span>القصّةُ الكاملةُ: «جُذُورُ مائدةٍ»</span></h2>
+<p style="text-align:center"><small class="d">النسخةُ الكاملةُ · للقراءةِ والتأمُّلِ في الأسرةِ · مدّةُ السردِ: ٧ دقائق · بخمسِ لوحاتٍ أصليّةٍ بلوحةِ الحصادِ</small></p>
+<div class="story">
+
+<div class="scene">
+<h4>١ · العشاءُ الصامتُ: مائدةٌ مليئةٌ، وقلوبٌ غائبةٌ (والجَدّةُ رملةُ تنظرُ في صمتٍ)</h4>
+<figure class="plate">
+<img src="../images/s20_p1.png" alt="مائدةُ عشاءٍ طويلةٌ مثقلةٌ بالأطباقِ، وكلُّ فردٍ حولَها منحنٍ على شاشةٍ صغيرةٍ متوهّجةٍ مخبّأةٍ تحتَ حافّةِ الطاولةِ، ووجوهُهم مُضاءةٌ بالأزرقِ؛ وحدَها الجَدّةُ في صدرِ المائدةِ ترفعُ بصرَها، وفي عينيها حزنٌ هادئٌ.">
+<figcaption>اللوحةُ الأولى · مائدةٌ مليئةٌ، وشاشاتٌ مخبّأةٌ تحتَها، والجَدّةُ رملةُ تنظرُ في صمتٍ حزينٍ.</figcaption>
+</figure>
+<p class="drop">بعدَ جهدٍ طويلٍ، جمعتِ الأمُّ المُرهَقةُ شتاتَ الأسرةِ حولَ مائدةِ العشاءِ. حضّرتْ لكلِّ واحدٍ ما يحبُّ: لهذا طبقَهُ المفضّلَ، ولتلكَ حلواها، وللصغيرِ بيتزاهُ التي يعشقُها، وكان الأبُ آخرَ من جاءَ، إذ أرادَ أنْ يُنهيَ أمرًا «مُهِمًّا» أوّلًا.</p>
+<p>جلسوا. لكنَّ المائدةَ كانتْ صامتةً. الأخُ الأكبرُ يُنهي لُعبتَهُ، والأختُ تُراسلُ صديقاتِها، والأبُ يُتابعُ خبرًا، والكلُّ، والعجبُ، يُخفي هاتفَهُ تحتَ الطاولةِ، يسترقُ النظرَ إليهِ خلسةً، كأنّهُ سرٌّ. حاضرونَ بالأجسادِ، غائبونَ بالقلوبِ. ولم يكنْ فيهم قاسٍ؛ كلُّ واحدٍ منهم كانَ مُتعَبًا، يهربُ إلى ما لا يطلبُ منهُ شيئًا. والجَدّةُ رملةُ تنظرُ إليهم في صمتٍ، وفي عينيها حزنٌ هادئٌ.</p>
+</div>
+
+<div class="scene">
+<h4>٢ · الجُرحُ الصامتُ: طفلٌ يحملُ رسمتَهُ ينتظرُ أنْ يُراهُ، فيُقابَلُ بتمثيلِ الاهتمامِ</h4>
+<figure class="plate">
+<img src="../images/s20_p2.png" alt="طفلٌ صغيرٌ على المائدةِ يرفعُ رسمةً بابتسامةٍ راجيةٍ، لكنَّ الكبارَ حولَهُ يُبقونَ عيونَهم منكّسةً على شاشاتِهم؛ تبدأُ ابتسامةُ الطفلِ تخبو إذ لا أحدَ يرفعُ بصرَهُ.">
+<figcaption>اللوحةُ الثانيةُ · رفعَ رسمتَهُ وانتظرَ؛ «جميلٌ يا حبيبي»، جاءَ الجوابُ بِلا نظرةٍ.</figcaption>
+</figure>
+<p>كان الصغيرُ يحملُ شيئًا عزيزًا: رسمةً رسمَها اليومَ في الصفِّ. قالتْ لهُ معلّمتُهُ إنّها <b>أجملُ رسمةٍ في الفصلِ</b>! فانتظرَ هذه اللحظةَ، لحظةَ العشاءِ، حِينَ تجتمعُ الأسرةُ، ليُفاجئَهم بها، فهي المرّةُ الوحيدةُ التي يجدُهم فيها معًا.</p>
+<p>رفعَ رسمتَهُ وقالَ بفرحٍ: «انظروا ماذا رسمتُ!» لكنْ... لم يرفعْ أحدٌ عينيهِ. قالَ أحدُهم دونَ نظرٍ: «جميلٌ يا حبيبي»، وعادَ إلى شاشتِهِ. مثّلوا الاهتمامَ، وقلوبُهم بعيدةٌ. وضعَ الصغيرُ رسمتَهُ على حِجرِهِ بهدوءٍ، وخفتَ بريقُ عينيهِ. لم يكنْ غاضبًا، كان حزينًا فقط، لأنّهُ أرادَ أنْ يَرَوْهُ، فلم يرَهُ أحدٌ.</p>
+</div>
+
+<div class="scene">
+<h4>٣ · سؤالٌ بريءٌ يكسرُ جليدَ الصمتِ، فترتفعُ الرؤوسُ والابتساماتُ</h4>
+<figure class="plate">
+<img src="../images/s20_p3.png" alt="الطفلُ الصغيرُ يتكلَّمُ، فيرفعُ الكبارُ حولَ المائدةِ رؤوسَهم ويبدؤونَ بالابتسامِ، وقد خفضوا شاشاتِهم؛ يتجمّعُ دفءٌ فوقَ المائدةِ لأوّلِ مرّةٍ.">
+<figcaption>اللوحةُ الثالثةُ · «أنا الوحيدُ الجائعُ، جائعٌ لكم، لا للطعامِ!»، فانكسرَ الجليدُ.</figcaption>
+</figure>
+<p>نظرَ الصغيرُ حولَهُ: الكلُّ منحنٍ على حِجرِهِ، وأضواءُ الشاشاتِ تتراقصُ على الوجوهِ. ففكّرَ بمنطقِهِ الطفوليِّ، ثمَّ سألَ بصوتِهِ الصغيرِ سؤالًا أضحكَ الجميعَ:</p>
+<p class="dialogue">«ماما... هل الهواتفُ جائعةٌ أيضًا؟ كلُّكم تُطعمونَها وتنظرونَ إليها طَوالَ الوقتِ... أنا الوحيدُ الجائعُ، لكنّي جائعٌ لكم أنتم، لا للطعامِ!»</p>
+<p>ضحكَ الأبُ، وابتسمتِ الأختُ، ورفعَ الأخُ رأسَهُ. كسرَ السؤالُ البريءُ جليدَ الصمتِ، وفعلَ ما لا تفعلُهُ المحاضراتُ: لمسَ القلوبَ بالصدقِ، لا باللومِ. نظرَ بعضُهم إلى بعضٍ، كأنّهم استيقظوا للتوِّ.</p>
+</div>
+
+<div class="scene">
+<h4>٤ · سلّةُ الخبزِ تجمعُ ما فرّقتْهُ الشاشاتُ: خبزةٌ لكلٍّ، وهاتفُهُ في السلّةِ</h4>
+<figure class="plate">
+<img src="../images/s20_p4.png" alt="الطفلُ الصغيرُ يطوفُ بسلّةِ خبزٍ مضفورةٍ على المائدةِ؛ يُلقي كلُّ كبيرٍ هاتفَهُ فيها ويأخذُ قطعةَ خبزٍ، وتستريحُ الأيدي المتحرّرةُ مفتوحةً على المائدةِ فيما تلتفتُ الوجوهُ بعضُها إلى بعضٍ.">
+<figcaption>اللوحةُ الرابعةُ · خبزةٌ لكلٍّ، والهاتفُ في السلّةِ، فخلتِ الأيدي من الشاشاتِ، وامتلأتِ المائدةُ بالوجوهِ.</figcaption>
+</figure>
+<p>وفجأةً، قامَ الصغيرُ، وأمسكَ سلّةَ الخبزِ. طافَ بها على الجميعِ، وقالَ كأنّها لعبةٌ محبّبةٌ:</p>
+<p class="dialogue">«هذه لعبةٌ! أُعطي كلَّ واحدٍ قطعةَ خبزٍ... مقابلَ أنْ يضعَ هاتفَهُ في السلّةِ! الخبزُ يُؤكَلُ معًا، والهاتفُ ينتظرُ.»</p>
+<p>ضحكَ الجميعُ ووافقوا. أخذَ كلٌّ خبزَهُ، ووضعَ هاتفَهُ في السلّةِ. وهكذا، السلّةُ التي كانتْ تحملُ الخبزَ، ما يجمعُنا، صارتْ تحملُ الهواتفَ، ما يَسرقُ حضورَنا حِينَ نُسيءُ استعمالَهُ. وللمرّةِ الأولى منذُ زمنٍ، خلتِ الأيدي من الشاشاتِ، وامتلأتِ المائدةُ بالوجوهِ.</p>
+</div>
+
+<div class="scene">
+<h4>٥ · الرسمةُ والجذرُ: شجرةٌ (نورُ) وتحتَها جُذَيْرٌ، وسؤالٌ يفتحُ الأبوابَ ودمعةُ أمٍّ</h4>
+<figure class="plate">
+<img src="../images/s20_p5.png" alt="في وسطِ المائدةِ تقفُ رسمةُ طفلٍ: شجرةٌ وارفةٌ مكتوبٌ عليها نور، وتحتَ خطِّ الأرضِ جُذَيْرٌ صغيرٌ مرسومٌ بخطوطٍ طفوليّةٍ؛ وفي ثمرةِ الشجرةِ بذرةٌ صغيرةٌ. تميلُ الأسرةُ حولَها، وتلمعُ عينا الأمِّ.">
+<figcaption>اللوحةُ الخامسةُ · شجرةٌ اسمُها نورُ، وتحتَها جُذَيْرٌ صغيرٌ، هو سرُّ كلِّ ما نَمَا.</figcaption>
+</figure>
+<p>الآنَ، وقد عادتِ القلوبُ، سألَ الأبُ، وكان أقلَّ الحاضرينَ اهتمامًا قبلَ قليلٍ: «والآنَ يا صغيري، حدّثْنا عن رسمتِكَ.» فأضاءَ وجهُ الطفلِ، ورفعَ رسمتَهُ: شجرةٌ وارفةٌ جميلةٌ، وتحتَها، تحتَ خطِّ الأرضِ، جُذَيْرٌ رسمَهُ بخطوطٍ طفوليّةٍ.</p>
+<p>وراحَ يحكي بكلماتِهِ الصغيرةِ ما قالتْهُ المعلّمةُ: <span class="dialogue">«تحدّتْنا اليومَ أنْ نرسمَ ما لا نراهُ! قالتْ: أترونَ الشجرةَ أمامَ الصفِّ؟ ارسموها بِلا أوراقٍ ولا ثمارٍ... ارسموا ما تحتَ الأرضِ، تقصدُ الجذورَ! وقالتْ: لا يمكنُ للشجرةِ أنْ تحيا دونَ الجزءِ الذي لا يراهُ أحدٌ؛ هو البطلُ المجهولُ، وسرُّ البقاءِ الذي لا نهتمُّ بهِ، لكنّهُ يمنحُ الشجرةَ ثباتَها، وحياتَها، وصوتَها العاليَ... وهو يعملُ في صمتٍ.»</span></p>
+<p>صمتتِ المائدةُ، لكنّهُ هذه المرّةَ صمتُ التأمُّلِ لا الغفلةِ. ثمَّ رفعَ الطفلُ عينيهِ، وسألَ سؤالًا بريئًا هزَّ القلوبَ:</p>
+<p class="dialogue">«وأنا أفكّرُ... هل للإنسانِ جذرٌ مِثلَ الشجرةِ؟ هل فينا شيءٌ هو سرُّ بقائِنا، لكنّا لا نراهُ؟»</p>
+<p>لم يُجبْ أحدٌ بكلماتٍ. لكنَّ عينَيِ الأمِّ دمعتا، لا حزنًا، بل لأنَّ أصغرَ أبنائِها قالَ ما عجزتْ هي عن قولِهِ، رغمَ كلِّ جهدِها. ونظرَ كلٌّ إلى من حولَهُ، كأنّهم يرونَ جذورَهم لأوّلِ مرّةٍ. وكانتِ الرسمةُ في وسطِ المائدةِ: شجرةٌ اسمُها نورُ، وتحتَها جُذَيْرٌ صغيرٌ، هو سرُّ كلِّ ما نَمَا.</p>
+<p>ووضعتِ الجَدّةُ رملةُ، التي ظلّتْ صامتةً طوالَ العشاءِ، يدَها على كتفِ الصغيرِ وهمستْ: «رأيتَ ما لم نرَهُ نحنُ.»</p>
+<p>وفي تلكَ اللحظةِ، فهمَ الجميعُ، دونَ أنْ يقولَ أحدٌ شيئًا، أنَّ الجذرَ الخفيَّ لأسرتِهم هو هذه اللحظةُ نفسُها: أنْ يجتمعوا، وأنْ يُصغوا، وأنْ يَروا ما تحتَ الكلامِ. اجتمعوا حقًّا بعدَ أنْ كانوا حاضرينَ بأجسادِهم فقط. وعلى المائدةِ، بدتِ الرسمةُ كأنّها تنبضُ: شجرةٌ تحملُ ثمرةً، وفي قلبِ الثمرةِ بذرةٌ صغيرةٌ تنتظرُ... لتبدأَ الحكايةَ من جديدٍ.</p>
+<p>وكأنَّ <b>نورَ</b>، التي بدأتْ في الكتابِ الأوّلِ بذرةً صغيرةً تتنفّسُ، صارتِ اليومَ شجرةً تُثمِرُ، تحيا في هذا الطفلِ الذي حَضَرَ بقلبِهِ فأيقظَ القلوبَ. وها هو يحملُ بدورِهِ بذرةً جديدةً... فلا تنتهي نورُ، بل تُولَدُ من جديدٍ في كلِّ طفلٍ <b>يَحضُرُ، ويُصغي، ويسألُ، ويُحاورُ</b> مَن حولَهُ بقلبٍ حاضرٍ. فالحضورُ أوّلُ آدابِ الحوارِ، والبيانُ كلُّهُ يبدأُ بأنْ نكونَ هنا حقًّا.</p>
+</div>
+
+<p style="margin-top:.86em"><span style="color:var(--gold-ink);font-weight:700">❦</span> &nbsp;<b>الصمتُ الأخيرُ (٤ إلى ٥ ثوانٍ).</b> <span class="dialogue">«اجلسْ لحظةً، وتخيَّلْ مائدةَ عشاءٍ، كلُّ مَن حولَها حاضرٌ بجسدِهِ غائبٌ بقلبِهِ. ما الجذرُ الخفيُّ الذي يربطُ قلوبَكم؟ ومتى آخرُ مرّةٍ نظرتَ في عينَيْ مَن تُحبُّ، دونَ شاشةٍ بينكما؟»</span></p>
+</div>
+</section>
+
+<section id="brief">
+<h2 class="sec"><span>النسخةُ الموجزةُ (٣ دقائق)</span></h2>
+<p style="text-align:center"><small class="d">جُملٌ قصيرةٌ، المعنى نفسُهُ.</small></p>
+<div class="story">
+<p class="drop">جمعتِ الأمُّ المُرهَقةُ أسرتَها للعشاءِ، وحضّرتْ لكلٍّ ما يحبُّ، لكنَّ الكلَّ انشغلَ بهاتفِهِ تحتَ الطاولةِ، يسترقُ النظرَ خلسةً.</p>
+<p>حملَ الصغيرُ رسمتَهُ، أجملَ رسمةٍ في الصفِّ، ليُريَهم، فلم يرفعْ أحدٌ عينيهِ، فخفتَ بريقُهُ.</p>
+<p>سألَ ببراءةٍ: «هل الهواتفُ جائعةٌ؟ أنا الجائعُ لكم!» فضحكوا واستيقظوا، ثمَّ جمعَ هواتفَهم في سلّةِ الخبزِ مقابلَ قطعةِ خبزٍ لكلٍّ.</p>
+<p>حكى عن تحدّي المعلّمةِ: «ارسمْ ما لا تراهُ، الجذرَ»، وسألَ: «هل فينا جذرٌ خفيٌّ هو سرُّ بقائِنا؟» فدمعتْ عينا الأمِّ، واجتمعتِ القلوبُ دونَ أنْ تفترقَ.</p>
+</div>
+</section>
+
+<section id="elements">
+<h2 class="sec"><span>العناصرُ الخمسةُ للتطبيقِ</span></h2>
+<table>
+<tr><th>العنصرُ</th><th>النشاطُ</th><th>الهدفُ</th></tr>
+<tr><td>المُخرَجُ اللُّغويُّ</td><td>«أُعلّمُكَ ما تعلَّمتُ، فتبقى الجذورُ»</td><td>ربطُ الإرثِ باللغةِ</td></tr>
+<tr><td>الحركةُ الجسديّةُ</td><td>يضعُ الشاشةَ جانبًا، ويحضرُ بقلبِهِ: نظرةٌ في العينينِ وإصغاءٌ لمن ينتظرُ اهتمامَهُ</td><td>تجسيدُ الحضورِ</td></tr>
+<tr><td>الدفءُ العلائقيُّ</td><td>يُعلّمُ أصغرَ منهُ مهارةً تعلَّمها (يورّثُ ما حصدَ)</td><td>الإرثُ يصلُ الأجيالَ</td></tr>
+<tr><td>البديلُ الحسّيُّ</td><td>«شجرةُ الجذورِ»: يرسمُ ما تعلَّمهُ في الجذورِ وما سيورّثُهُ في الثمارِ</td><td>ترسيخُ الإرثِ حسّيًّا</td></tr>
+<tr><td>الجسرُ الإنجليزيُّ</td><td><span class="lat">«What we cannot see is the secret of our lasting.»</span></td><td>التوازنُ اللُّغويُّ</td></tr>
+</table>
+
+<h3>الدرجةُ التحتيّةُ ومحكُّ الإتقانِ (متدرّجٌ)</h3>
+<p><b>محكٌّ من مرحلتينِ.</b> <b>ثمرةٌ تحمِلُ بذرةً (بداية):</b> يلتفتُ لمن ينتظرُ اهتمامَهُ بتذكيرٍ، ويحضرُ بقلبِهِ لحظاتٍ. ← <b>ثمرةٌ تحمِلُ بذرةً (تمكُّن):</b> يحضرُ بقلبِهِ لا بجسدِهِ فقط، يرى الجذرَ الخفيَّ في علاقاتِهِ، ويُورِثُ ما تعلَّمَهُ لمن بعدَهُ، فتُثمِرُ ثمرتُهُ بذرةً جديدةً.</p>
+<h3>محكّاتُ <span class="lat">CASEL</span> السلوكيّةُ</h3>
+<p>يجمعُ هذا الكتابُ الختاميُّ كفاياتِ الرحلةِ؛ ومؤشّراتُهُ التاليةُ تتوزّعُ على الوعيِ الاجتماعيِّ، والمهاراتِ العلائقيّةِ، وإدارةِ الذاتِ:</p>
+<ul>
+<li>يحضرُ بقلبِهِ في لقاءاتِهِ (ينظرُ، يُصغي، يضعُ المشتّتاتِ جانبًا).</li>
+<li>يلاحظُ من ينتظرُ اهتمامَهُ ويلتفتُ إليهِ بصدقٍ.</li>
+<li>يرى ما تحتَ الظاهرِ: الجذرَ الخفيَّ في الناسِ والأشياءِ.</li>
+<li>يُورِثُ ما تعلَّمَهُ لغيرِهِ، فيصيرُ كلُّ ثمرةٍ بذرةً جديدةً.</li>
+</ul>
+</section>
+
+<section id="basket">
+<h2 class="sec"><span>سلّةُ الخبزِ وما لا نراهُ</span></h2>
+<p>طقسانِ صغيرانِ ملموسانِ يحملانِ معنى هذا الكتابِ كلَّهُ: طقسٌ للمائدةِ، وطقسٌ للقلبِ.</p>
+<div class="rights" style="display:flex;gap:12px;flex-wrap:wrap">
+  <div style="flex:1 1 240px;background:rgba(221,162,78,.10);border:1px solid var(--gold-ink);border-radius:4px;padding:.7em 1em">
+    <b style="color:var(--oxblood)">&#10022; سلّةُ الخبزِ</b><br>
+    على المائدةِ يضعُ كلُّ واحدٍ هاتفَهُ في سلّةٍ واحدةٍ، ويأخذُ قطعةَ خبزٍ. الخبزُ يُؤكَلُ معًا، والهاتفُ ينتظرُ. السلّةُ التي تجمعُنا تحملُ عنّا ما يُفرِّقُنا.
+  </div>
+  <div style="flex:1 1 240px;background:rgba(37,64,50,.06);border:1px solid var(--emerald);border-radius:4px;padding:.7em 1em">
+    <b style="color:var(--emerald)">&#10022; ارسمِ الجذرَ</b><br>
+    يرسمُ كلُّ واحدٍ شجرةَ أسرتِهِ، وتحتَ خطِّ الأرضِ الجذرَ الخفيَّ الذي يربطُهم (الحبُّ والذكرياتُ واللحظاتُ معًا). ارسمْ ما لا يُرى.
+  </div>
+</div>
+<div class="note"><span class="mk">❦</span> &nbsp;<b>الدرسُ.</b> أعظمُ الجذورِ أخفاها، وأصدقُ الحضورِ أنْ ترى مَن أمامَكَ. «<span class="lat">مَا لَا نَرَاهُ، قَدْ يَكُونُ أَهَمَّ مَا فِينَا</span>».</div>
+</section>
+
+<section id="senses">
+<h2 class="sec"><span>الحواسُّ الداخليّةُ الأربعُ للحضورِ</span></h2>
+<p>الحضورُ يُحَسُّ في الجسدِ قبلَ أنْ يصيرَ مهارةً. دَعِ الطفلَ يلحظُ ما يجري في داخلِهِ حِينَ يكونُ هنا حقًّا، دونَ تسميةِ المصطلحاتِ.</p>
+<table>
+<tr><th>الحاسّةُ</th><th>ما يشعرُ بهِ الطفلُ في الحضورِ</th><th>همسةُ المُرافِقِ</th></tr>
+<tr><td>الشاشةُ الموضوعةُ</td><td>خِفّةُ اليدِ الفارغةِ الحرّةِ</td><td>«أحِسَّ يدَكَ تستريحُ فارغةً مفتوحةً · لا شيءَ بينَكَ وبينَهُم.»</td></tr>
+<tr><td>النظرةُ المرفوعةُ</td><td>اللقاءُ حِينَ ترتفعُ العينانِ إلى عينَيْ غيرِكَ</td><td>«ارفعْ عينَيكَ إلى عينَيهِ · أحِسَّ اللقاءَ هناكَ.»</td></tr>
+<tr><td>الأُذنُ المُصغيةُ</td><td>انتباهٌ يميلُ نحوَ مَن ينتظرُ</td><td>«أقبِلْ بكلِّكَ على مَن ينتظرُ · أحِسَّهُ مرئيًّا.»</td></tr>
+<tr><td>الجذرُ الخفيُّ</td><td>إحساسٌ بالعميقِ تحتَ الكلماتِ</td><td>«أحِسَّ الجذرَ تحتَ ما يُقالُ، الحبَّ الذي لا يراهُ أحدٌ ويحتاجُهُ الجميعُ.»</td></tr>
+</table>
+<div class="note safe"><span class="mk">❦</span> &nbsp;<b>كيف تُستعمَلُ هذه الهمساتُ.</b> افعلْها على المائدةِ، بعدَ أنْ يُوضَعَ كلُّ هاتفٍ في السلّةِ. أطِلِ الوقوفَ عندَ الجذرِ الخفيِّ، ولا تُعجِلْ أحدًا ولا تَلُمْهُ.</div>
+</section>
+
+<section id="safestop">
+<h2 class="sec"><span>بروتوكولُ التوقُّفِ الآمنِ وبدائلُ الدمجِ</span></h2>
+<div class="note warn">
+<span class="mk">❧</span> &nbsp;<b>بروتوكولُ التوقُّفِ الآمنِ.</b> هذا الكتابُ <b>يقظةٌ حانيةٌ لا محاكمةٌ</b>. لا نُحوّلُهُ إلى لومٍ للأسرةِ أو شيطنةٍ للتقنيةِ (فللشاشةِ نفعُها، والمشكلةُ في أنْ تُغيّبَ الحاضرَ). ولا نجعلُ طفلًا يشعرُ أنَّ أهلَهُ لا يحبّونَهُ؛ بل نفتحُ القلوبَ برفقٍ. الإرثُ حبٌّ يُورَّثُ، لا ذنبٌ يُورَّثُ.
+</div>
+<table>
+<tr><th>الحالةُ</th><th>البديلُ المقترحُ</th></tr>
+<tr><td>طيفُ التوحّدِ <span class="lat">(ASD)</span></td><td>قد يصعبُ التواصلُ البصريُّ؛ يُقبَلُ الحضورُ القلبيُّ بأشكالٍ أخرى (الجلوسُ معًا، الإصغاءُ، مشاركةُ الطعامِ) دونَ إلزامٍ بالنظرِ في العينينِ.</td></tr>
+<tr><td>أسرةٌ منشغلةٌ</td><td>يُقدَّمُ النموذجُ بلطفٍ دونَ لومٍ، ويُبدأُ بخطوةٍ صغيرةٍ: وجبةٌ واحدةٌ بِلا شاشاتٍ في الأسبوعِ.</td></tr>
+<tr><td>طفلٌ يشعرُ بإهمالٍ حقيقيٍّ</td><td>يُحاطُ بحنانٍ، ويُطمأَنُ أنَّ انشغالَ الكبارِ ليسَ لأنّهم لا يحبّونَهُ؛ ويُوجَّهُ إلى من يثقُ بهِ إنْ دامَ الألمُ.</td></tr>
+<tr><td>بيئةٌ رقميّةٌ مفرطةٌ</td><td>يُعلَّمُ التوازنُ لا الحرمانُ؛ للشاشةِ وقتُها، وللحضورِ وقتُهُ، وأهلُ البيتِ قدوةٌ في ذلكَ.</td></tr>
+<tr><td>صعوباتٌ لغويّةٌ</td><td>يُقبَلُ التعبيرُ عن الحضورِ بفعلٍ (مشاركةُ الطعامِ، رسمٌ، حضنٌ، جلوسٌ) لا بالكلامِ وحدَهُ.</td></tr>
+<tr><td>اختلافٌ ثقافيٌّ</td><td>تُحترَمُ أعرافُ المائدةِ والاجتماعِ المختلفةُ بينَ الأسرِ والثقافاتِ.</td></tr>
+<tr><td>طفلٌ لا يجتمعُ على مائدةٍ</td><td>للمائدةِ هنا معنى رمزيٌّ. من لا مائدةَ لهُ (يتيمٌ، أو أهلُهُ يعملونَ ليلًا أو بعيدونَ، أو في رعايةٍ بديلةٍ) يُدعى إلى أيِّ لحظةِ اجتماعٍ يحبُّها: كوبُ شايٍ مع جدٍّ، أو طريقُ المدرسةِ معَ صديقٍ، أو مكالمةٌ مرئيّةٌ. ولا يُسألُ أمامَ الآخرينَ: أينَ مائدتُكَ؟</td></tr>
+</table>
+</section>
+
+<section id="guide">
+<h2 class="sec"><span>دليلُ الأهلِ والمعلّمِ</span></h2>
+<div class="card">
+<p><b>قبلَ الجلسةِ: سلّةُ الحضورِ.</b> ضعوا هواتفَكم في سلّةٍ واحدةٍ، كسلّةِ الطفلِ في القصّةِ، طَوالَ الجلسةِ، إلّا من ينتظرُ اتصالًا طارئًا (مناوبةٌ طبّيّةٌ أو مريضٌ في البيتِ) فيُبقي هاتفَهُ ويقولُ ذلكَ صراحةً. ثمَّ اجعلوها عادةً على المائدةِ. الخبزُ يُؤكَلُ معًا، والهاتفُ ينتظرُ.</p>
+<p><b>أثناءَ الجلسةِ: ارسموا «ما لا نراه».</b> اطلبوا من كلِّ فردٍ أنْ يرسمَ أو يكتبَ «جذرَ» عائلتِهِ: ما الذي يربطُكم ولا يُرى؟ ثمَّ تبادلوا ما رسمتم، وتأمّلوا كم من الجذورِ تعملُ في صمتٍ.</p>
+<p><b>بعدَ الجلسةِ: لحظةُ «أراكَ».</b> امنحوا كلَّ طفلٍ يوميًّا لحظةَ اهتمامٍ كاملٍ بِلا شاشةٍ: انظروا في عينيهِ، واسألوا: كيفَ كان يومُكَ حقًّا؟ الطفلُ الذي يُرى، يتعلَّمُ أنْ يرى غيرَهُ.</p>
+<p><span style="color:var(--gold-ink);font-weight:700">❦</span> &nbsp;<b>اجعلوها قابلةً للقياسِ.</b> سجِّلوا في مفكّرةِ الثلّاجةِ: «كم وجبةً اجتمعنا فيها بِلا شاشاتٍ هذا الأسبوعَ؟» ضعوا نجمةً لكلِّ وجبةٍ حاضرةِ القلوبِ. عُدُّوا النجومَ في نهايةِ الأسبوعِ.</p>
+<blockquote>«أغلى ما تُهديهِ لمن تحبُّ أنْ تكونَ معهُ حقًّا.»</blockquote>
+</div>
+</section>
+
+<section id="notebook">
+<h2 class="sec"><span>مفكّرةُ المُرافِقِ · سجلٌّ قابلٌ للطباعةِ</span></h2>
+<p style="text-align:center"><small class="d">سطرٌ واحدٌ كلَّ يومٍ. اطبعْ نسخةً جديدةً لكلِّ أسبوعٍ من الأسابيعِ الثلاثةِ (ملاحظةُ الطباعةِ في <a href="01#notebook">الكتابِ الأوّلِ</a>).</small></p>
+<table>
+<tr><th>اليومُ</th><th>وجباتٌ حاضرةُ القلبِ (نجومٌ)</th><th>هل منحَ لحظةَ «أراكَ»؟</th><th>نقلَ مهارةً؟ (نعم/لا)</th><th>ملاحظةٌ</th></tr>
+<tr><td>١</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>٢</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>٣</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>٤</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>٥</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>٦</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>٧</td><td></td><td></td><td></td><td></td></tr>
+</table>
+<p><small class="d">التأمُّلُ الأسبوعيُّ: متى غيَّرَ الحضورُ الحقيقيُّ لحظةً هذا الأسبوعَ؟ ______________________________</small></p>
+</section>
+
+<section id="jps">
+<h2 class="sec"><span>مقياسُ جُذُور النفسيُّ <span class="lat">(JPS)</span> · وحدةُ الكتابِ العشرينَ</span></h2>
+<div class="note warn">
+<span class="mk">❧</span> &nbsp;<b>تنبيهٌ مهمٌّ.</b> هذه أداةُ ملاحظةٍ تراكميّةٌ قيدَ التطويرِ (مشروعُ مقياسِ جُذُور)، لا اختبارٌ نفسيٌّ معياريٌّ، ولا تُستعمَلُ لأغراضٍ تشخيصيّةٍ فرديّةٍ.
+</div>
+<div class="note">
+<span class="mk">❦</span> &nbsp;<b>القياسُ الختاميُّ.</b> بهذا الكتابِ الختاميِّ تكتملُ أبعادُ مقياسِ جُذُور <span class="lat">(JPS)</span> كلُّها · من النَّفَسِ إلى الشورى. والبُعدُ الختاميُّ يجمعُها: <b>الحضورُ القلبيُّ وتوريثُ ما تعلَّمنا</b>.
+</div>
+<p>تُملأُ مرّتينِ، بمُقيِّمَيْنِ مستقلَّيْنِ حيثُ أمكنَ. والعلاماتُ <b>مرتكزةٌ على سلوكٍ مرصودٍ</b>:</p>
+<table>
+<tr><th>العلامةُ</th><th>المِرساةُ السلوكيّةُ (ما تلحظُهُ فعلًا)</th></tr>
+<tr><td>○ &nbsp;نادرًا</td><td>حاضرٌ بجسدِهِ غائبٌ بقلبِهِ؛ ولا ينتبهُ لِمَن ينتظرُ عنايتَهُ.</td></tr>
+<tr><td>◐ &nbsp;أحيانًا</td><td>يحضرُ قلبُهُ حِينَ يُذكَّرُ فقط؛ ولا يرى بعدُ الجذرَ الخفيَّ، ولا ينقلُ ما تعلَّمَهُ.</td></tr>
+<tr><td>● &nbsp;غالبًا</td><td>من تلقاءِ نفسِهِ يحضرُ قلبُهُ، ويرى الجذرَ الخفيَّ في روابطِهِ، وينقلُ ما تعلَّمَهُ إلى غيرِهِ.</td></tr>
+</table>
+<p><small class="d">إجراءُ التقييمِ، وقاعدةُ حلِّ الاختلافِ بينَ المُقيِّمَيْنِ، والمنزلةُ البحثيّةُ للمقياسِ (استكشافيٌّ قابلٌ للاختبارِ ولا يُشخِّصُ أبدًا) مبسوطةٌ مرّةً واحدةً، كاملةً، في <a href="01#jps">الكتابِ الأوّلِ</a>.</small></p>
+<h3>البُعدُ الختاميُّ: الحضورُ القلبيُّ والإرثُ</h3>
+<table>
+<tr><th>المؤشّرُ السلوكيُّ</th><th>○</th><th>◐</th><th>●</th><th>ملاحظة</th></tr>
+<tr><td>يحضرُ بقلبِهِ في لقاءاتِهِ لا بجسدِهِ فقط</td><td>○</td><td>◐</td><td>●</td><td></td></tr>
+<tr><td>يلتفتُ لمن ينتظرُ اهتمامَهُ</td><td>○</td><td>◐</td><td>●</td><td></td></tr>
+<tr><td>يرى ما تحتَ الظاهرِ (الجذرَ الخفيَّ)</td><td>○</td><td>◐</td><td>●</td><td></td></tr>
+<tr><td>يُورِثُ ما تعلَّمَهُ لغيرِهِ</td><td>○</td><td>◐</td><td>●</td><td></td></tr>
+</table>
+<p><b>تاريخُ القياسِ القبليِّ:</b> ________  <b>تاريخُ القياسِ البعديِّ:</b> ________  · &nbsp;<b>عددُ الاختلافاتِ بدرجتَيْنِ في هذه الجولةِ:</b> ____</p>
+</section>
+
+<section id="words">
+<h2 class="sec"><span>مفرداتُ الكتابِ</span></h2>
+<table>
+<tr><th>الكلمةُ</th><th>المعنى المبسّطُ</th><th><span class="lat">English</span></th></tr>
+<tr><td>جَذْرٌ</td><td>الأصلُ الخفيُّ تحتَ الأرضِ، سرُّ حياةِ الشجرةِ</td><td><span class="lat">root</span></td></tr>
+<tr><td>جُذورٌ</td><td>أصولٌ كثيرةٌ مُتشعّبةٌ تحتَ الأرضِ</td><td><span class="lat">roots</span></td></tr>
+<tr><td>بَذْرةٌ</td><td>أصلُ الشجرةِ القادمةِ، تحملُها الثمرةُ</td><td><span class="lat">seed</span></td></tr>
+<tr><td>إرْثٌ</td><td>ما نتركُهُ لمن بعدَنا فيحملونَهُ</td><td><span class="lat">legacy</span></td></tr>
+<tr><td>حُضورٌ</td><td>أنْ تكونَ هنا بقلبِكَ لا بجسدِكَ فقط</td><td><span class="lat">presence</span></td></tr>
+</table>
+<div class="bridge">
+<div><b>المُخرَجُ بالعربيّةِ:</b> «نَحْنُ حَاضِرُونَ بِالْأَجْسَادِ... فَلْنَحْضُرْ بِالْقُلُوبِ. وَفِي كُلِّ ثَمَرَةٍ بَذْرَةٌ تَنْتَظِرُ. وَالْجَذْرُ يَعْمَلُ فِي صَمْتٍ، فَيَمْنَحُ الشَّجَرَةَ صَوْتَهَا.»</div>
+<div><b><span class="lat">English Bridge:</span></b> <span class="lat" style="font-style:normal">“We are present in body, let us be present in heart. And in every fruit waits a seed. The root works in silence, and gives the tree its voice.”</span></div>
+</div>
+</section>
+
+<section id="questions">
+<h2 class="sec"><span>أسئلةُ الفهمِ</span></h2>
+<div class="card">
+<ul>
+<li>لماذا انتظرَ الصغيرُ لحظةَ العشاءِ ليُريَ أسرتَهُ رسمتَهُ؟ <span class="pill">تذكُّر</span></li>
+<li>لماذا غيّرَ سؤالُ الطفلِ البريءُ المائدةَ أكثرَ ممّا تُغيّرُها المحاضراتُ والنصائحُ؟ <span class="pill">استنتاج</span></li>
+<li>تخيّلْ مائدتَكم الآنَ، مَنِ الذي ينتظرُ أنْ تراهُ حقًّا؟ ماذا ستقولُ لهُ؟ <span class="pill">حسّيّ</span></li>
+<li>ما الجذرُ الخفيُّ في حياتِكَ، الشيءُ الذي لا تراهُ، لكنّهُ سرُّ بقائِكَ وثباتِكَ؟ <span class="pill">ربطٌ شخصيٌّ / وجوديٌّ</span></li>
+<li>لم يكنْ أحدٌ على المائدةِ قاسيًا. ما الذي كانَ كلُّ واحدٍ منهم يهربُ منهُ إلى هاتفِهِ؟ وكيفَ نُعينُهم دونَ لومٍ؟ <span class="pill">تعاطف</span></li>
+<li>كيفَ نصنعُ لحظةَ حضورٍ لمن لا مائدةَ لهُ؟ ومن في حياتِكَ تدعوهُ إلى لحظةِ اجتماعٍ هذا الأسبوعَ؟ <span class="pill">تطبيق</span></li>
+<li>ما المهارةُ الواحدةُ من هذه الرحلةِ كلِّها التي ستُورِثُها، ولمن؟ <span class="pill">إرثٌ</span></li>
+</ul>
+<blockquote>مَا لَا نَرَاهُ، قَدْ يَكُونُ أَهَمَّ مَا فِينَا.<br>فَأَعْظَمُ الْجُذُورِ أَخْفَاهَا، وَأَصْدَقُ الْحُضُورِ أَنْ تَرَى مَنْ أَمَامَكَ.</blockquote>
+<div class="note safe">
+<span class="mk">◆</span> &nbsp;<b>حكمةٌ ختاميّةٌ · حقُّ الأهلِ حضورٌ.</b> قالَ ﷺ: «إِنَّ لِرَبِّكَ عَلَيْكَ حَقًّا، وَلِنَفْسِكَ عَلَيْكَ حَقًّا، وَلِأَهْلِكَ عَلَيْكَ حَقًّا، فَأَعْطِ كُلَّ ذِي حَقٍّ حَقَّهُ» (رواهُ البخاريُّ). وأوّلُ ما يُعطى للأهلِ حضورُ القلبِ قبلَ الهدايا والطعامِ. ولا يُفهَمُ منهُ لومُ المُرهَقِ؛ فمن أعطى ما استطاعَ اليومَ فقد أعطى.
+</div>
+<p><span style="color:var(--gold-ink);font-weight:700">❦</span> &nbsp;<b>ما نُعلِّمُهُ بالفعلِ.</b> علِّمِ المتعلّمَ: <b>«حِينَ تجلسُ مع من تحبُّ، ضعِ الشاشةَ بعيدًا، وانظرْ في عينيهِ، واسألْ: كيفَ حالُكَ حقًّا؟ فالحضورُ الصادقُ جذرٌ يُغذّي القلوبَ، ولا يُرى.»</b> فبالحضورِ، صارَ أصغرُ طفلٍ جذرًا لأسرتِهِ.</p>
+</div>
+</section>
+
+<section id="media">
+<h2 class="sec"><span>نشاطٌ ومشروعُ الختامِ</span></h2>
+<div class="card">
+<p><b>نشاطٌ فنّيٌّ.</b> اطلبْ من المتعلّمِ أنْ يرسمَ «جذرَ عائلتِهِ»: شجرةً تمثّلُ أسرتَهُ، وتحتَها الجذورُ الخفيّةُ التي تربطُهم (الحبُّ، الذكرياتُ، اللحظاتُ معًا). ارسمْ ما لا يُرى. وعلِّقوا الرسمَ على الجدارِ أسبوعًا، ولْيُضِفْ كلُّ فردٍ جذرًا جديدًا كلَّ يومٍ.</p>
+<p><b>نشاطٌ عمليٌّ (للأسرةِ).</b> مائدةٌ بِلا شاشاتٍ، جرّبوا «سلّةَ الخبزِ» أسبوعًا كاملًا من الوجباتِ: هاتفٌ في السلّةِ مقابلَ قطعةِ خبزٍ، طَوالَ الوجبةِ. ثمَّ احكوا بعدَهُ: ماذا اكتشفتم في وجوهِ بعضِكم؟</p>
+<div class="note safe">
+<span class="mk">✦</span> &nbsp;<b>مشروعُ الختامِ: صمِّمْ كتابَكَ.</b> أنتَ الآنَ مؤلِّفٌ، لا قارئًا فقط. اختَرْ مهارةً واحدةً أتقنتَها في الرحلةِ (نَفَسًا، أو صوتًا، أو حوارًا، أو حكمةً...)، ثمَّ اصنعْ <b>«كتابَكَ الحاديَ والعشرينَ»</b>: ابتكرْ جذرًا لغويًّا، وبطلًا، وقصّةً قصيرةً، ومرساةً حسّيّةً واحدةً يُجرِّبُها القارئُ بجسدِهِ، ثمَّ علِّمْها لمن هو أصغرُ منكَ. وأَرِ كتابَكَ كبيرًا تثقُ بهِ قبلَ أنْ تنشرَهُ، ولا تذكرْ فيهِ اسمَ أحدٍ ولا صورتَهُ دونَ إذنِهِ. فبهذا تنغلقُ الدائرةُ: صرتَ بذرةً تَزرعُ بذرةً، ومتعلّمًا صارَ معلِّمًا.
+</div>
+<p style="text-align:center;color:var(--emerald)"><small class="d">اقرؤوهُ جهرًا <b>بلا شاشةٍ، فذلكَ أجملُ وأبقى</b>. وفي كتابٍ يرفعُ شأنَ الحضورِ، الشاشةُ آخرُ الوسائلِ لا أوّلُها.</small></p>
+</div>
+</section>
+
+<section id="bridge">
+<h2 class="sec"><span>جسرُ الذاكرةِ · الدائرةُ تنغلقُ وتُفتَحُ</span></h2>
+<div class="bridge">
+<div>‹‹ &nbsp;<b>إلى الوراءِ · الكتابُ التاسعَ عشرَ («حكمةُ الحصادِ»).</b> «جنيتَ الحكمةَ، فصارَ كلامُكَ ثمرةً ناضجةً. والآنَ، في ختامِ الرحلةِ، تكتشفُ أعمقَ سرٍّ: أنَّ كلَّ ما تعلَّمتَهُ من البيانِ، من النَّفَسِ إلى الحكمةِ، لم يكنْ ليُثمِرَ لولا جذرٌ خفيٌّ يعملُ في صمتٍ. الثمرةُ النّاضجةُ تكشفُ الجذرَ الذي غذّاها.»</div>
+<div><b>إلى الأمامِ · عودةٌ إلى البدايةِ (الكتابُ الأوّلُ: «نَفَسُ البذرةِ»)</b> &nbsp;››<br><i>«وهنا تنغلقُ الدائرةُ... وتُفتَحُ من جديدٍ. ثمرتُكَ تحملُ في قلبِها بذرةً، والبذرةُ تبدأُ رحلةً جديدةً: نَفَسًا، فصوتًا، فنظرةً... كما بدأتْ نورُ تمامًا. فكلُّ من تعلَّمَ يُعلّمُ، وكلُّ ثمرةٍ بذرةٌ، وكلُّ طفلٍ جذرٌ ينتظرُ أنْ ينمو. عُدْ إلى الكتابِ الأوّلِ، لا لتُعيدَهُ، بل لتزرعَهُ في طفلٍ جديدٍ، فتستمرَّ الحياةُ.»</i></div>
+</div>
+<p class="finale">وَفِي كُلِّ ثَمَرَةٍ بَذْرَةٌ... وَفِي كُلِّ بَذْرَةٍ شَجَرَةٌ... وَفِي كُلِّ طِفْلٍ جَذْرٌ يَنْتَظِرُ.</p>
+</section>
+
+
+</main>
+
+<footer class="colophon">
+<div class="mark">❦ · جُذُور · ❦</div>
+<p style="max-width:660px;margin:.4em auto"><b>د. عادل ف. عامر</b>، خبيرُ اللغةِ العربيةِ والتربيةِ، مؤسِّسُ منظومةِ <b>جُذُور</b> (نظريّةُ القراءةِ الملموسةِ <span class="lat">CRT</span>، عامر 2024). «فنُّ البيان» سلسلتُهُ في مهارتَيِ التحدّثِ وفنِّ الحوارِ، رحلةٌ من النَّفَسِ إلى الحصادِ.</p>
+<p style="letter-spacing:1px;font-size:15px">بَذْرَةٌ تَبْقَى لِتَنْمُوَ مِنْ بَعْدِنَا</p>
+<p style="font-size:13.5px;color:#6a4e2c">جُذُور · فنّ البيان · الكتابُ العشرونَ «جُذُورُ الحصاد»، ختامُ الرحلةِ ومطلعُ الدائرةِ · <span class="lat">ORCID 0009-0008-9618-3863</span> · عامر (2024)</p>
+</footer>
+
+<section class="backcover" aria-label="الغلاف الخلفيّ">
+<svg width="92" height="118" viewBox="86 68 268 392" role="img" aria-label="ختمُ جُذُور المطويّ بألوان الحصاد، صغيرًا.">
+<g transform="translate(20,0)">
+  <polygon points="135,188 200,215 200,300 70,300" fill="#DDA24E"/><polygon points="265,188 200,215 200,300 330,300" fill="#7A3E24"/>
+  <polygon points="200,75 200,215 135,188" fill="#A98B3C"/><polygon points="200,75 265,188 200,215" fill="#8a7130"/>
+  <path d="M200 75 L200 300" stroke="#EAD7A2" stroke-width="1.1" opacity=".5" fill="none"/>
+  <polygon points="198,178 163,216 198,254" fill="#4A3620"/><polygon points="202,178 237,216 202,254" fill="#2E2010"/>
+  <path d="M200 183 C186 199 186 233 200 251 L200 183 Z" fill="#E3C063" stroke="#5A3D1E" stroke-width="1.4"/>
+  <path d="M200 183 C214 199 214 233 200 251 L200 183 Z" fill="#C0912E" stroke="#5A3D1E" stroke-width="1.4"/>
+  <g fill="none" stroke="#6E4E2E" stroke-linecap="round"><path d="M200 300 C200 344 200 388 200 448" stroke-width="4"/><path d="M200 312 C176 338 154 366 138 414" stroke-width="3"/><path d="M200 312 C224 338 246 366 262 414" stroke-width="3"/></g>
+  <path d="M200 183 C199 171 200 162 201 150" stroke="#4f5f2b" stroke-width="2.6" fill="none"/>
+  <path d="M200 172 C188 173 177 170 171 159 C181 160 193 165 200 170 Z" fill="#5f7034"/>
+  <path d="M201 159 C210 159 218 155 222 145 C216 151 207 155 201 157 Z" fill="#6a7d3c"/>
+</g>
+</svg>
+<div style="letter-spacing:1px;color:var(--oxblood);font-size:15px;margin-top:.4em">جُذُور · فنّ البيان · الكتابُ العشرونَ · ختامُ الرحلةِ</div>
+<h2 style="font-size:34px;margin:.1em 0">جُذُورُ الْحَصَادِ</h2>
+<div class="mission">لِنَمْنَحَ الأطفالَ مساحةً هادئةً بجانبِ الشاشاتِ، ولنعودَ إلى الحضورِ: لمسٌ، وصوتٌ، ووجهٌ لوجهٍ، لا تمريرٌ صامتٌ.</div>
+<p class="blurb">مائدةُ عشاءٍ في بيتٍ كأيِّ بيتٍ: جمعتِ الأمُّ المُرهَقةُ أسرتَها، لكنَّ الكلَّ غائبٌ في هاتفِهِ تحتَ الطاولةِ، والجَدّةُ رملةُ تنظرُ في صمتٍ. رفعَ الصغيرُ رسمتَهُ، أجملَ رسمةٍ في الصفِّ، فلم يرَهُ أحدٌ، فسألَ ببراءةٍ: «هل الهواتفُ جائعةٌ؟ أنا الجائعُ لكم!» فانكسرَ الجليدُ، وجمعَ الهواتفَ في سلّةِ الخبزِ. ثمَّ كشفَ رسمتَهُ: شجرةٌ اسمُها نورُ، وتحتَها جُذَيْرٌ خفيٌّ، وسألَ: «هل للإنسانِ جذرٌ مثلَ الشجرةِ؟» فدمعتْ عينا الأمِّ، واجتمعتِ القلوبُ. قصّةُ الختامِ التي تكشفُ سرَّ البيانِ كلِّهِ: الحضورَ، أوّلَ آدابِ الحوارِ. فلا تنتهي نورُ، بل تُولَدُ في كلِّ طفلٍ يَحضُرُ ويُصغي ويسألُ.</p>
+<blockquote style="max-width:560px;margin-inline:auto">«مَا لَا نَرَاهُ... هُوَ سِرُّ بَقَائِنَا»</blockquote>
+<div class="isbn">ختامُ الرحلةِ ومطلعُ الدائرةِ · ١٦+ وللأسرةِ كلِّها · <span class="lat">CEFR C1 · ACTFL Advanced Low · CASEL Social Awareness</span></div>
+<div class="spinecode">JUTHUR · BAYAN · 20</div>
+<div class="isbn" style="margin-top:.6em">بَذْرَةٌ تَبْقَى لِتَنْمُوَ مِنْ بَعْدِنَا · عامر (2024)</div>
+</section>
+
+</article>
+
+<div style="text-align:center;font-family:Amiri,serif;color:#7A6A4F;font-size:.88rem;margin:24px 0">⟋ «كُلُّ يَدٍ تَتْرُكُ أَثَرًا. وَكُلُّ أَثَرٍ يُعَلِّمُ يَدًا جَدِيدَةً.»، جُذُور · Amer (2024)</div>
+<div class="jx-rights" style="direction:rtl;text-align:center;font:14px/1.8 Amiri,serif;color:#5f584d;padding:1.2rem 1rem;border-top:1px solid #d5cbb8;margin:2rem 0 0">© ٢٠٢٤ إلى ٢٠٢٦ د. عادل ف. عامر. جميع الحقوق محفوظة. يُحظر النسخ وإعادة النشر والترجمة والتحويل وتدريب أنظمة الذكاء الاصطناعي دون إذن كتابي. <a href="../../../rights" style="color:#7a5e1e">الحقوق والاستخدام</a><br><span lang="en" dir="ltr" style="font-family:Georgia,serif;font-size:12.5px">© 2024 to 2026 Dr. Adel F. Amer. All rights reserved. Designed and developed by Dr. Adel F. Amer. No copying, republishing, translation, conversion or AI training without written permission. <a href="../../../rights" style="color:#7a5e1e">Rights and use</a></span></div>
+<script src="../../../juthur-a11y.js" defer></script>
+</body>
+</html>
